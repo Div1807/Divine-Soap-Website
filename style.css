@@ -1,0 +1,209 @@
+/* ===== COLOR PALETTE ===== */
+
+:root {
+--terracotta: #AE5238;   /* main background */
+--mustard: #D39932;      /* button */
+--deep-teal: #2D5D65;    /* accent */
+--olive: #6C833E;        /* secondary */
+--cream: #E3D8C6;        /* text color */
+--rosewood: #7A3E2D;
+}
+
+
+/* ===== BODY ===== */
+
+body {
+background-color: var(--terracotta);
+color: var(--cream);
+font-family: 'Lora', serif;
+margin: 0;
+padding: 0;
+}
+
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+background-color: var(--rosewood) !important;
+padding-top: 18px;
+padding-bottom: 18px;
+border-radius: 18px;
+margin: 20px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* BRAND NAME (Divine Drop) */
+
+.navbar-brand.brand-name {
+font-family: 'Italianno', cursive;
+font-size: 32px;
+color: var(--cream) !important;
+}
+
+
+/* NAV LINKS */
+
+.nav-link {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+color: var(--cream) !important;
+margin-left: 18px;
+transition: 0.3s;
+}
+
+.nav-link:hover {
+color: var(--mustard) !important;
+}
+
+
+/* ===== STORY SECTION ===== */
+
+.story-heading {
+font-family: 'Playfair Display', serif;
+font-size: 54px;
+font-style: italic;
+font-weight: 600;
+color: var(--cream);
+margin-bottom: 25px;
+letter-spacing: 1px;
+}
+
+.story-text {
+font-family: 'Lora', serif;
+font-size: 18px;
+line-height: 1.9;
+color: var(--cream);
+margin-bottom: 18px;
+}
+
+.tagline {
+font-family: 'Playfair Display', serif;
+font-size: 26px;
+font-style: italic;
+color: var(--cream);
+margin-top: 25px;
+}
+
+
+/* ===== STORY BOX ===== */
+
+.story-box {
+background-color: rgba(255,255,255,0.05);
+padding: 35px;
+border-radius: 18px;
+}
+
+/* ===== IMAGE ===== */
+
+.story-image {
+max-width: 420px;
+border-radius: 15px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+
+/* ===== BUTTON (View Our Products) ===== */
+
+.btn-success {
+background-color: var(--mustard);
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+border: none;
+padding: 14px 32px;
+border-radius: 12px;
+transition: 0.3s;
+}
+
+.btn-success:hover {
+background-color: #b87e25;
+}
+
+
+/* ===== VIEW PRODUCTS SECTION ===== */
+
+section.text-center {
+margin-top: 60px;
+background-color: transparent;
+}
+
+
+
+/* ===== FOOTER ===== */
+
+footer {
+background-color: transparent;
+color: var(--cream);
+font-family: 'Montserrat', sans-serif;
+padding: 15px;
+margin-top: 40px;
+text-align: center;
+font-size: 14px;
+letter-spacing: 0.5px;
+}
+/* ===== PRODUCT CARDS ===== */
+
+.product-card {
+background-color: rgba(255,255,255,0.05);
+padding: 25px;
+border-radius: 18px;
+transition: 0.3s;
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+}
+
+/* PRODUCT IMAGE SIZE CONTROL */
+
+.product-image {
+height: 220px;        /* controls height */
+width: 100%;
+object-fit: cover;
+border-radius: 12px;
+margin-bottom: 15px;
+}
+
+/* LIMIT CAROUSEL WIDTH */
+
+.carousel {
+max-width: 280px;     /* makes image smaller */
+margin: auto;         /* centers it */
+}
+
+/* PRODUCT TITLE */
+
+.product-title {
+font-family: 'Playfair Display', serif;
+font-size: 24px;
+color: var(--cream);
+margin-top: 10px;
+}
+
+/* PRODUCT DESCRIPTION */
+
+.product-desc {
+font-family: 'Lora', serif;
+font-size: 16px;
+color: var(--cream);
+margin-bottom: 15px;
+}
+
+/* CAROUSEL ARROWS */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: rgba(0,0,0,0.4);
+border-radius: 50%;
+padding: 15px;
+}
+.product-image {
+height: 220px;
+width: 100%;
+object-fit: cover;
+}
+
+.carousel {
+max-width: 240px;
+margin: auto;
+}
